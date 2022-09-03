@@ -11,6 +11,9 @@ result on the browser.
 * Square Root
 * Division
 * Logarithm
+
+
+
 ##There are some notes for logarithmic and expotiation:
 The number must br given before the operation.
 Then It will automatically perform the operation.
