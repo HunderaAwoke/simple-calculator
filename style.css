@@ -1,0 +1,57 @@
+body{
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	background: linear-gradient(to right,#01A7C2,#44FFD1);
+}
+.show-screen{
+	color: white;
+	display: grid;
+	align-content: left;
+}
+.buttons{
+	display: grid;
+	align-content: center;
+	grid-template-columns: repeat(5, 80px);
+	grid-template-rows: minmax(120px ,auto)repeat(5, 100px);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.buttons>.screen{
+	display: flex;
+	align-items: end;
+	justify-content: space-around;
+	flex-direction: column;
+	grid-column: span 5;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+.buttons>.screen>.current{
+	word-wrap: break-word;
+	word-break: break-all;
+	font-size: 40px;
+}.buttons>.screen>.previous{
+	word-wrap: break-word;
+	word-break: break-all;
+	font-size: 20px;
+}
+.buttons>#span-two{
+	grid-row: span 2;
+	background-color: #03AC13;
+	border-radius: 0;
+	color: white;
+}
+button{
+	color: white;
+	font: monospace;
+	font-size: 40px;
+	border: none;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+#green-btn{
+	color: #03AC13;
+}
+.buttons>button:hover{
+	background-color: #022F40;	
+}
