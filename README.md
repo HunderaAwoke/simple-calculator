@@ -14,6 +14,6 @@ result on the browser.
 
 
 
-##There are some notes for logarithmic and expotiation:
+#There are some notes for logarithmic and expotiation:
 The number must br given before the operation.
 Then It will automatically perform the operation.
